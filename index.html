@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Jogo das Palavras</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <section>
+        <h2>Adivinha a Palavra</h2>
+        <div id="palavra">
+            <div class="letra"></div>
+            <div class="letra"></div>
+            <div class="letra"></div>
+            <div class="letra"></div>
+            <div class="letra"></div>
+            <div class="letra"></div>
+            <div class="letra"></div>
+            <div class="letra"></div>
+        </div>
+
+        <h3>Ajuda: <span id="ajuda">Instrumento Musical</span></h3>
+        <h3>Tentativas restantes: <span id="restante">2</span></h3>
+        <h3>Letras escolhidas: <span id="letrasEscolhidas">A - S</span></h3>
+
+        <button onclick="recarregarPalavra()">Nova Palavra</button>
+    </section>
+    
+    <script src="./assets/script.js"></script>
+</body>
+</html>
